@@ -1,0 +1,31 @@
+/*nav{
+	margin-left: 
+}*/
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	text-decoration-style: none;
+	/*justify-content: space-around;*/
+}.logo{
+	margin-top: -20px;
+	margin-left: -50px;
+}.lista{
+	flex-wrap: wrap;
+	display: flex;
+	font-size: 1.5em;
+	padding-top: 40px;
+	/*margin-top: 20px;*/
+}.lista a{
+	text-decoration: none;
+	padding: 0 50px;
+	display: flex;
+}@media all and (max-width: 400px){
+	nav ul{
+		flex-direction: column;
+	}
+	nav ul li{
+		text-align: center;
+	}
+}
