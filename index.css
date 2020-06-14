@@ -48,6 +48,7 @@ body{
 }
 .logo{
 	margin: 0, .2rem;
+	margin-top: 10px;
 }
 .navbar-links ul{
 	max-width: 100%;
@@ -165,3 +166,20 @@ body{
 }.ikonat{
 	margin-left: 200px;
 }*/
+
+.butonat button:hover{
+	transform: scale(1.1);
+	background-color: lightgrey;
+}.boxes{
+	display: flex;
+	padding-top: 70px;
+	flex-wrap: wrap;
+	text-align: center;
+}.box{
+	width: 50%;
+	flex:1;
+
+}.arrow{
+	text-align: center;
+
+}
