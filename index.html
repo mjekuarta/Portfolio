@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" type="image/x-icon" href="logo2.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Mansalva&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -11,7 +13,7 @@
 </head>
 <body>
 		<nav class="navbar">
-			<div class="logo"><img src="logo.png"></div>
+			<div class="logo"><img src="logo2.png" width="100" height="100"></div>
 			 <a href="#" class="toggle-button">
 	          <span class="bar"></span>
 	          <span class="bar"></span>
@@ -21,7 +23,7 @@
 				<ul>
 					<li class="lista"><a href="index.html"> Home </a></li>
 					<li class="lista"><a href="about.html"> About </a></li>
-					<li class="lista"><a href="contact.html"> Contact </a></li>
+					
 				</ul>
 		</div>
 		</nav> 
@@ -31,7 +33,7 @@
 			<div class="butonat">
 				<a href ="#boxes"><button>My work </a></button>
 				<a href ="about.html"><button>About me</a></button>
-				<a href ="contact.html"><button>Contact me</a></button>
+				<a href ="#contacti"><button>Contact me</a></button>
 			</div>
 			<!--
 			<div class="ikonat">
@@ -40,19 +42,19 @@
 			<a href="https://www.instagram.com/arta_mjeku/" class="fa fa-instagram"></a></div>-->
 			<div class="arrow"><span style="color: black; font-size: 100px;">&#8595;</span></div>
 			<h1 style="text-align: center; font-family: 'DM Sans', sans-serif; font-size: 40px;"> My work </h1>
-			<p style="text-align: center; font-size: 20px;font-family: 'DM Sans', sans-serif;"> 1. iRead </p>
+			<p style="text-align: center; font-size: 20px;font-family: 'DM Sans', sans-serif;"> <a href="iread.html" style="text-decoration: none;">1. iRead </a> </p>
 			<div class="boxes" id="boxes" style="background:transparent;"> 
 				<div class="box">
-				<img src="mockup1.jpg" width="600" height="400">
+				<img src="mockup6.png" width="500" height="500">
 				</div>
 			</div>
-			<p style="text-align: center; font-size: 20px;font-family: 'DM Sans', sans-serif;"> 2. VisitKosovo </p>
+			<p style="text-align: center; font-size: 20px;font-family: 'DM Sans', sans-serif;"> <a href="visit.html" style="text-decoration: none;">2. VisitKosovo </a></p>
 			<div class="boxes" id="boxes" style="background:transparent; margin:40px; margin-top: -20px;"> 
 				<div class="box">
 				<img src="mockup3.png" width="800" height="400">
 				</div>
 			</div>
-			<p style="text-align: center; font-size: 20px;font-family: 'DM Sans', sans-serif;"> 3. Bite </p>
+			<p style="text-align: center; font-size: 20px;font-family: 'DM Sans', sans-serif;"><a href="bite.html" style="text-decoration: none;"> 3. Bite </a></p>
 			<div class="boxes" id="boxes" style="background:transparent;"> 
 				<div class="box">
 				<img src="mockup5.png" width="600" height="400">
@@ -61,20 +63,18 @@
 		</div>
 		<h1 style="text-align: center; font-family: 'DM Sans', sans-serif; font-size: 40px; margin-top: 30px;"> Contact </h1>
 		<div>
-			<div class="contacti">
-		<div class="teksti"> Let's get started... </div>
-		<div>
-		 <form action="contact.php" method="post"class ="forms">
-		 	My name is <input type="text" name="emri" placeholder="your name"> and I need <input type="text" name="help" placeholder="your enquiry">. <br>You can reach me at <input type="text" name="emaili" placeholder="your email">to get things started. <br>
-		<div class="butonat" id="butoni"><button>Submit</button></div>
-		</form>
-	</div>
-</div>
-</div>
+			<div class="contacti" id="contacti">
+		<div class="teksti"> Let's in touch. 
+<div><form action="mailto:artaamjeku@mail.com">      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form></div> </div>
 <footer>
 			<p id="footeri">
 				© All rights reserved. May, 2020
 			</p>
-		</footer>
+	</footer>
 </body>
 </html>

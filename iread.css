@@ -105,31 +105,7 @@ body{
   margin-top: 50px;
   line-height: 40px;
   margin-right: 20px;
-}.fa {
-  padding: 20px 20px;
-  font-size: 30px;
-  width: 80px;
-  text-align: center;
-  text-decoration: none;
-  margin: 8px 2px;
-  border-radius: 60%;
-  height: 75px;
-  margin-left: 120px;
-}.fa-facebook {
-  background: lightblue;
-  color: white;
-}.fa-linkedin{
-    background-color: #007bb5;
-    color: white;
-}.fa-instagram{
-    background-color:  #125688;
-    color: lightpink;
-}.fa-facebook:hover{
-    transform: scale(1.1);
-}.fa-linkedin:hover{
-    transform: scale(1.1);
-}.fa-instagram:hover{
-    transform: scale(1.1);
 }footer{
-                    margin-top:130px;
-                    text-align:center;
+    margin-top:130px;
+    text-align:center;
+}
